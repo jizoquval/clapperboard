@@ -1,0 +1,29 @@
+<!--
+  ~ /**
+  ~  * Created by Valentin Grachev on 25.11.2021, 0:12
+  ~  * Copyright (c) 2021 . All rights reserved.
+  ~  * Last modified 20.11.2021, 15:04
+  ~  */
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Clapperboard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor" tools:targetApi="o_mr1">#ffffff</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="android:navigationBarDividerColor" tools:targetApi="o_mr1">#E0E0E0</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/background_light</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Clapperboard.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Clapperboard.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Clapperboard.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
